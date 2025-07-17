@@ -23,7 +23,8 @@ jobs:
     strategy:
       matrix:
         tf_version: [1.12.2]
-        runner: [base, aws]
+        # runner: [base, aws]
+        runner: [base]
     steps:
       - name: Check out
         uses: actions/checkout@v4
